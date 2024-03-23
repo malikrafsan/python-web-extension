@@ -1,17 +1,19 @@
 {
-  "name": "PyScript Demo 1",
-  "description": "Build Chrome Extensions in Python/PyScript",
+  "name": "Python Calculator Extension - Malik",
+  "description": "Chrome Extensions using Python",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
-    "16": "icons/icon-16.png",
-    "32": "icons/icon-32.png",
-    "48": "icons/icon-48.png",
-    "128": "icons/icon-128.png"
+    "16": "icons/icon16.png",
+    "19": "icons/icon19.png",
+    "32": "icons/icon32.png",
+    "38": "icons/icon38.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icons/icon-128.png"
+    "default_icon": "icons/icon128.png"
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
